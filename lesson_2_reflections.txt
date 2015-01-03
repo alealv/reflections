@@ -11,5 +11,18 @@ What value do you think it offers?
 	others not to. This gives advantage in separate commits into groups of related
 	files.
 	It also allows to make commits while one is not connected to the internet.
+		
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Executing "git status" and also "git diff". The last one will check differences
+	between files in the working area and in the staging area.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+	Branches are usefull when I want to try some new things on the code separated from
+	the master. It seperates code so it would be easy to have different versions of it.
+
+How do the diagrams help you visualize the branch structure?
 	
-	
+	One can see the entire tree of branches and masters.
